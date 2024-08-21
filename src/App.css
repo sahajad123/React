@@ -6,7 +6,17 @@
   height: 40vmin;
   pointer-events: none;
 }
+/* .form-content{
 
+  height: 50vh;
+  width: 50vh;
+  border: 2 px solid #000;
+  border-radius: 5px;
+
+} */
+.recepie-card{
+  display: flex;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
