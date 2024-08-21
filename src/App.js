@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import CIncrement from './Components/CIncrement';
+import Increment from './Components/Increment';
+import Conditional from './Components/Conditional';
+import List from './Components/List';
+import Home from './Components/Home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CIncrement/>
+      <Increment/>
+      <Conditional/>
+      <List/>
+      <Home/>
     </div>
   );
 }
